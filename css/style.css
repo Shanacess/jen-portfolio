@@ -264,6 +264,14 @@
     cursor: pointer;
     transition: .5s;
     border-bottom: 2px solid transparent;
+    padding: 0 10px; /* Adds space around the text */
+    white-space: nowrap; /* Prevents text from wrapping */
+}
+#portfolio-flters {
+    display: flex;
+    flex-wrap: nowrap; /* Keeps all items in one line */
+    gap: 20px; /* Adds space between items */
+    overflow-x: auto; /* Allows horizontal scrolling on smaller screens */
 }
 
 #portfolio-flters li:hover,
